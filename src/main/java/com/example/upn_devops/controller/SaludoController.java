@@ -10,6 +10,6 @@ public class SaludoController {
 
     @GetMapping("/saludo")
     public String enviarSaludo() {
-        return "¡Hola! Saludos desde la API Web desarrollada para la UPN.";
+        return "¡Hola! Saludos desde la API Web desarrollada para la UPN. By: Anderson Belleza";
     }
 }
